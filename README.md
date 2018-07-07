@@ -22,6 +22,8 @@ O sistema foi desenvolvido utilizando as ferramentas:
 
 8-	Microsoft Word 2010
 
+9 - https://www.draw.io/ para Modelagem de Dados
+
 
 ## Autores
 
