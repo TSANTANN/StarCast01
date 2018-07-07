@@ -25,7 +25,7 @@ O sistema foi desenvolvido utilizando as ferramentas:
 
 ## Autores
 
-Anderson Belinne
+Anderson Bellini
 Luiz Fernando Salles
 Marcos Mauri
 Thiago Canalli
