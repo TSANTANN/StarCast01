@@ -1,4 +1,4 @@
-# Projeto StarCast01
+# Projeto StarCast - Time 1
 
 Ferramenta cujo objetivo é interligar o paciente necessitado com o especialista disposto a atender e diagnosticar o problema desta pessoa.
 
