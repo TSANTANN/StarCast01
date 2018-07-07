@@ -1,0 +1,34 @@
+﻿@model Core.Base.Entities.Paciente
+
+@{
+    ViewBag.Title = "View";
+}
+@using (Html.BeginForm("Index", "LoginPaciente", FormMethod.Post))
+{
+    <h2>Login Medicos</h2>
+
+    <div>
+
+        <hr />
+        <dl class="dl-horizontal">
+            <dt>
+                @Html.DisplayNameFor(model => model.Nome)
+            </dt>
+            <dd>
+                @Html.DropDownList("PacientesId", String.Empty)
+            </dd>
+            <br />
+            <dt>
+                @Html.DisplayNameFor(model => model.Senha)
+            </dt>
+            <dd>
+                @Html.PasswordFor(model => model.Senha)
+            </dd>
+        </dl>
+    </div>
+    <p>
+        <input type="submit" value="Logar" class="btn btn-default" />
+
+        @*@Html.ActionLink("Login", "Login", new { id = Model.Id }) |*@
+    </p>
+}
